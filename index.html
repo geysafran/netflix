@@ -20,16 +20,18 @@
         </ul>
         </nav>
         <div class="menu-right">
-            <a href="" onclick="inputsearch()" class="itemlist">
-                    <img src="assets/img/search-solid.svg" class="fa-search" alt="lupa">
-            </a>
+            <span class="boxInput">
+                <img src="assets/img/lupa.png" class="search" alt="lupa" onclick="functSearch()">
+                <input type="text" class="inputLupa" placeholder="Títulos, gente e gêneros">
+            </span>
+
             <a href="" class="itemlist">
-                <img src="assets/img/bell-icon-white.svg" class="fa-bell" alt="bell">
+                <img src="assets/img/sinin.png" class="fa-bell" alt="bell">
             </a>
             <a href="" class="itemlist">INFANTIL</a>
-            <div class="menu-saida">
-                <input type="text" class="lupa" placeholder="Títulos, gente e gêneros">
-                <img src="assets/img/florzi.jpg" class="foto-perfil">
+            <div class="menuSaida">
+                
+                <img src="assets/img/florzi.jpg" class="fotoPerfil" onclick="functMenu">
                     <a href="" class="item-perfil"></a>
                     <a href="" class="item-infatil"></a>
                     <a href="" class="item-gerenciar"></a>
@@ -42,5 +44,6 @@
     <main id="corpo">
 
     </main>
+    <script src="assets/main.js"></script>
 </body>
 </html>
